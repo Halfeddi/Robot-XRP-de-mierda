@@ -107,7 +107,7 @@ public class Robot extends TimedRobot {
     leftMotorSpeed = Math.max(-1, Math.min(1, leftMotorSpeed));
     rightMotorSpeed = Math.max(-1, Math.min(1, rightMotorSpeed));
 
-    // Print debug information
+    // Print debug informationhal
     System.out.print("Rotation: " + rotationSpeed);
     System.out.println(" | Left Motor Speed: " + leftMotorSpeed + " | Right Motor Speed: " + rightMotorSpeed);
 
